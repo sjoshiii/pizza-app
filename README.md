@@ -1,8 +1,31 @@
-# React + Vite
+RTK-ReactRouter Pizza Ordering App
+A modern pizza ordering web app built with React, Redux Toolkit, and React Router. It features dynamic routing, a cart system, order creation, and persistent storage.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+ Routing using React Router
+ Fully functional cart with add, remove, and update functionality
+ Order form with validation
+ Redux Toolkit state management
+ LocalStorage persistence
+ Clear cart after successful order
+ Optional address fetching simulation
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tech Stack
+ React
+ Redux Toolkit
+ React Router DOM
+ Tailwind CSS (or your CSS setup)
+ LocalStorage (for cart persistence)
+
+
+How to Run Locally
+1. Clone the repo:
+   git clone https://github.com/sjoshiii/pizza-app.git
+   cd pizza-app
+
+2. Install dependencies:
+   npm install
+
+3. Start the development server:
+   npm run dev
