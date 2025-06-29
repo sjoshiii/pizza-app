@@ -90,7 +90,7 @@ function CreateOrder() {
               </p>
             )}
           </div>
-          {!position.latitude && !position.longitude && (
+          {/* {!position.latitude && !position.longitude && (
             <span className="absolute right-2 top-1 sm:right-4 sm:top-1">
               <Button
                 onClick={(e) => {
@@ -103,7 +103,7 @@ function CreateOrder() {
                 Get Position
               </Button>
             </span>
-          )}
+          )} */}
         </div>
 
         {/* Priority Checkbox */}
@@ -167,7 +167,7 @@ export async function action({ request }) {
 
   const newOrder = await createOrder(order);
 
-  // ✅ Clear localStorage and flag for Redux
+  // Clear localStorage and flag for Redux
   localStorage.removeItem("cart");
   localStorage.setItem("orderSuccess", "true");
 

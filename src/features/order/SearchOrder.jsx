@@ -18,7 +18,8 @@ export default function SearchOrder() {
       <input
         type="search"
         aria-label="Search Order"
-        placeholder="Search Order"
+        placeholder="Search Order #"
+        
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         className="
